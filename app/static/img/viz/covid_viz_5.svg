@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 501 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-0.198456,-1050.74)">
+        <g id="_5" serif:id="5" transform="matrix(1,0,0,1,-1.2168,9.1111)">
+            <rect x="1.415" y="1041.63" width="500.033" height="500.033" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,123.544,1080.45)">
+                <text x="150.142px" y="440.4px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(209,209,209);">Study of 24,922 deaths in UK &amp; Italy</text>
+                <text x="29.448px" y="453.4px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(209,209,209);">Source: Italian Portal of Epidemiology and Public Health</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-418.529,-9.97204)">
+                <text x="425.82px" y="1319.62px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:24.834px;fill:rgb(179,179,179);">WOMEN</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-3.42982,-10.2509)">
+                <text x="425.82px" y="1319.62px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:24.834px;fill:rgb(179,179,179);">MEN</text>
+            </g>
+            <g transform="matrix(0.905528,0,0,0.905528,-0.386357,1044.08)">
+                <text x="18.544px" y="45.796px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:27.425px;fill:white;">Biological Sex is also a</text>
+                <text x="308.057px" y="45.796px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:27.425px;fill:rgb(241,131,48);">Risk-Factor</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-8.16265,1036.86)">
+                <text x="24.252px" y="74.311px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:21px;fill:white;">% of COVID-19 deaths</text>
+            </g>
+            <g transform="matrix(2.04444,0,0,2.04444,-433.979,-1203.21)">
+                <path d="M332.551,1305.73C378.023,1305.73 414.886,1268.86 414.886,1223.39C414.886,1177.92 378.023,1141.05 332.551,1141.05L332.551,1305.73Z" style="fill:url(#_Linear1);"/>
+            </g>
+            <g transform="matrix(1.52046,0,0,1.52046,-389.702,-697.424)">
+                <text x="425.82px" y="1319.62px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:24.834px;fill:rgb(255,253,253);">63%</text>
+            </g>
+            <g transform="matrix(1.52209,0,0,1.58989,-266.529,-647.12)">
+                <path d="M332.551,1141.05C287.078,1141.05 250.215,1177.92 250.215,1223.39C250.215,1268.86 287.078,1305.73 332.551,1305.73L332.551,1141.05Z" style="fill:url(#_Linear2);"/>
+            </g>
+            <g transform="matrix(1.52046,0,0,1.52046,-482.872,-695.005)">
+                <text x="425.82px" y="1319.62px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:24.834px;fill:rgb(255,253,253);">37%</text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(82.3358,0.799157,-0.799157,82.3358,332.551,1219.08)"><stop offset="0" style="stop-color:rgb(247,182,51);stop-opacity:1"/><stop offset="0.51" style="stop-color:rgb(251,102,32);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(252,74,26);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(164.672,0,0,164.672,250.215,1223.39)"><stop offset="0" style="stop-color:rgb(38,177,254);stop-opacity:1"/><stop offset="0.54" style="stop-color:rgb(11,145,199);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,132,177);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

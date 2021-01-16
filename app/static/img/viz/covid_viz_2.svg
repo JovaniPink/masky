@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-529.587,0)">
+        <g id="_2" serif:id="2" transform="matrix(1,0,0,1,0.554729,0)">
+            <rect x="529.033" y="0" width="500" height="500" style="fill:none;"/>
+            <g id="Bars">
+                <g transform="matrix(1.07216,0,0,0.843971,-40.0336,60.9619)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear1);"/>
+                </g>
+                <g transform="matrix(1.0556,0,0,0.421985,65.207,227.693)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear2);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,1.68794,111.399,-272.501)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear3);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,1.68794,84.2754,-272.501)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear4);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,2.53191,131.426,-605.964)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear5);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,6.30948,178.534,-2098.53)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear6);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,20.555,225.15,-7727.11)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear7);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,37.0917,252.17,-14261)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear8);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,30.9655,-29.2504,-12057.6)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:rgb(153,153,153);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,23.0951,-4.09295,-8947.89)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:rgb(76,75,79);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,42.816,272.221,-16522.7)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear9);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,101.822,319.046,-39836.8)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear10);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,147.772,366.221,-57992)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear11);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,59.7842,412.744,-23227)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear12);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,93.3887,299.086,-36504.6)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear13);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,116.022,346.194,-45447.3)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear14);"/>
+                </g>
+                <g transform="matrix(1.05729,0,0,96.23,392.933,-37627.2)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear15);"/>
+                </g>
+                <g transform="matrix(1.10867,0,0,3.37588,129.396,-939.427)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear16);"/>
+                </g>
+                <g transform="matrix(1.10981,0,0,9.50993,175.366,-3363.06)">
+                    <rect x="547.685" y="392.743" width="18.942" height="2.37" style="fill:url(#_Linear17);"/>
+                </g>
+            </g>
+            <g id="percents">
+                <g transform="matrix(0.73316,0,0,0.73316,143.375,104.768)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">0.2%</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,244.378,104.768)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">0.1</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,263.948,100.875)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">0.2</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,310.534,97.3516)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">0.6</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,357.304,90.3057)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">1.7</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,404.183,57.239)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">5.4</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,447.915,4.47142)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">11.2</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,495.073,-134.901)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">26.6</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,542.316,-242.654)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">38.6</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,589.953,-34.4635)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(204,204,204);">15.6%</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,291.254,101.245)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">0.4</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,338.459,97.7224)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">0.8</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,384.233,83.3668)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">2.5</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,430.881,18.537)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">9.7</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,474.536,-115.725)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">24.4</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,521.788,-169.119)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">30.3</text>
+                </g>
+                <g transform="matrix(0.73316,0,0,0.73316,568.808,-119.243)">
+                    <text x="549.78px" y="387.812px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:white;">25.1%</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-1.96965,-2.95041)">
+                <text x="555.111px" y="196.325px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">IT</text>
+            </g>
+            <g transform="matrix(1,0,0,1,19.3405,-3.09218)">
+                <text x="555.111px" y="196.325px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">UK</text>
+            </g>
+            <g transform="matrix(0.941189,0,0,0.941189,529.023,0.758689)">
+                <text x="18.544px" y="45.796px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:27.425px;fill:white;">Those Aged 60+ are Most at Risk</text>
+            </g>
+            <g transform="matrix(1,0,0,1,521.348,-5.42603)">
+                <text x="24.252px" y="74.311px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:20px;fill:white;">% of deceased (Italy &amp; UK)</text>
+            </g>
+            <g transform="matrix(1,0,0,1,0.0325816,0)">
+                <path d="M546.671,398.038L1012.6,398.038" style="fill:none;stroke:rgb(76,75,79);stroke-width:1.6px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-0.907629,-6.20602)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">age</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,-102.353,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">0-9</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,-67.5677,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">10-19</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,-14.69,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">20-29</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,31.4078,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">30-39</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,79.928,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">40-49</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,126.564,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(153,153,153);">50-59</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,173.775,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(241,131,48);">60-69</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,220.855,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(241,131,48);">70-79</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,267.965,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(241,131,48);">80-89</text>
+            </g>
+            <g transform="matrix(0.860589,0,0,0.860589,320.404,38.8711)">
+                <text x="768.537px" y="435.622px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:14.517px;fill:rgb(241,131,48);">90+</text>
+            </g>
+            <g transform="matrix(1,0,0,1,649.502,38.8199)">
+                <text x="45.673px" y="440.4px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(209,209,209);">Study of 3,372 death cases in the UK &amp; 21,551 in Italy</text>
+                <text x="29.93px" y="453.4px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(209,209,209);">Sources: China Center for Disease Control &amp; Prevention</text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(0,176,215);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,131,176);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(0,176,215);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,131,176);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(0,176,215);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,131,176);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(15,94,124);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(21,97,120);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(15,94,124);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(21,97,120);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear6" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(15,94,124);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(21,97,120);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear7" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(15,94,124);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(21,97,120);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear8" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(252,74,26);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(247,180,50);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear9" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(166,58,33);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(163,121,48);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear10" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(166,58,33);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(163,121,48);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear11" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(166,58,33);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(163,121,48);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear12" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(166,58,33);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(163,121,48);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear13" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(252,74,26);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(247,180,50);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear14" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(252,74,26);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(247,180,50);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear15" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(252,74,26);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(247,180,50);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear16" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(0,176,215);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,131,176);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear17" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.48977e-15,1.29633,-24.3299,7.93773e-17,557.156,393.58)"><stop offset="0" style="stop-color:rgb(0,176,215);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,131,176);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

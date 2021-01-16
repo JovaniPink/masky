@@ -1,0 +1,175 @@
+/* I'm not the best at writing raw css, so I'm converting to Tailwind CSS*/
+
+.uploader {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#uploader {
+  color: #eaeaea;
+  width: 90%;
+}
+
+#file-gallery {
+}
+
+#introduction {
+  display: none;
+  color: #b6b5b5;
+}
+
+#introduction:only-child {
+  display: block;
+}
+
+#drop-container,
+#file-gallery {
+  margin: 20px;
+  padding: 20px;
+}
+
+[data-state~="dragging"] #drop-container {
+  border: thick dashed #000;
+}
+
+.file-gallery-item {
+  position: relative;
+}
+
+.file-gallery-item .image {
+  width: 64px;
+  height: 64px;
+  padding: 20px;
+}
+
+.file-gallery-item .close-button {
+  /*#fe2645 NO*/
+  /*#26b1fe YES*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #666;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 5px;
+  line-height: 12px;
+  font-size: 24px;
+}
+
+#dropzone-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#idle-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cloud-icon {
+  transition: transform 0.4s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.cloud-icon {
+  display: block;
+  padding-right: 1em;
+  margin: 0 auto 0.5em;
+  display: grid;
+  grid-template: 1/1;
+}
+.cloud-icon svg {
+  width: 12em;
+  height: 12em;
+  grid-area: 1/1;
+  stroke: #eaeaea;
+}
+.cloud-icon .line[data-hidden="true"] {
+  opacity: 1;
+  transform: scaleX(0);
+}
+.cloud-icon .arrow[data-hidden="true"] {
+  transform: scale(0.8) translateY(10%);
+}
+.cloud-icon .check[data-hidden="true"] {
+  transform: scale(0.8) rotate(-1turn);
+}
+
+#idle-message,
+#error-message,
+[role="button"] {
+  cursor: pointer;
+}
+
+.meter {
+  height: 20px;
+  position: relative;
+  background: #555;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  width: 300px;
+}
+
+.meter > span {
+  display: block;
+  height: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #c8d2de;
+  background-image: linear-gradient(to bottom, #c8d2de, #777575);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+#accessible-bar {
+  opacity: 0;
+}
+
+#drop-container > * {
+  display: none;
+}
+
+[data-state~="idle"] #drop-container [data-show~="idle"],
+[data-state~="dragging"] #drop-container [data-show~="dragging"],
+[data-state~="processing"] #drop-container [data-show~="processing"],
+[data-state~="error"] #drop-container [data-show~="error"],
+[data-state~="completed"] #drop-container [data-show~="completed"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+[data-state~="idle"] #drop-container [data-show~="idle"] .cloud-icon svg {
+  stroke: #eaeaea;
+}
+
+[data-state~="dragging"] #drop-container [data-show~="dragging"] {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+[data-state~="dragging"] #drop-container [data-show~="dragging"]:before {
+  transform: scale(1.1);
+}
+[data-state~="dragging"] #drop-container [data-show~="dragging"] .cloud-icon {
+  transform: translateY(-0.5em);
+}
+[data-state~="processing"] #drop-container [data-show~="processing"] {
+  cursor: wait;
+}
+[data-state="SUCCESS"] .arrow[data-hidden] {
+  transform: rotate(1turn) scale(0.8);
+}

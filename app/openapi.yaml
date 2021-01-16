@@ -1,0 +1,54 @@
+openapi: 3.0.1
+info:
+  title: Masky API
+  description: >-
+    Masky API takes an image or video stream and runs our ML mask model
+    prediction function to return a result.
+  termsOfService: 'https://en.wikipedia.org/wiki/Terms_of_service'
+  version: 0.1.0
+servers:
+  - url: 'http://127.0.0.1:5000/'
+tags:
+  - name: masky-tasks
+    description: A set of task tp process if a face mask is worn.
+    externalDocs:
+      description: Find out more
+      url: 'https://en.wikipedia.org/wiki/URL'
+  - name: tasky
+    description: Available APIs to verify the statuses of running tasks.
+  - name: image
+    description: Operations to kick off the image processing task.
+    externalDocs:
+      description: Find out more about our image uploading process.
+      url: 'https://en.wikipedia.org/wiki/URL'
+paths:
+  /index:
+    get:
+      tags:
+        - masky-tasks
+      summary: 'Basic landing point'
+      operationId: app.api.masky.index
+      responses:
+        '200':
+          description: OK
+  /test-formdata-file-upload:
+    post:
+      tags:
+        - image
+      summary: 'Test formData with file type, for file upload'
+      operationId: app.api.image.test_formdata_file_upload
+      responses:
+        '200':
+          description: OK
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              x-body-name: formData
+              type: object
+              properties:
+                formData:
+                  type: string
+                  format: binary
+              required:
+                - formData

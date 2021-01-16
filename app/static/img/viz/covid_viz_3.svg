@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-528.366)">
+        <g id="_3" serif:id="3" transform="matrix(1,0,0,1,-1.45003,5.51879)">
+            <rect x="1.45" y="522.847" width="499.993" height="499.993" style="fill:none;"/>
+            <g transform="matrix(0.905528,0,0,0.905528,-0.351589,525.302)">
+                <text x="18.544px" y="45.796px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:27.425px;fill:white;">Especially Those with Existing Conditions</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-8.12788,518.08)">
+                <text x="24.252px" y="74.311px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:20px;fill:white;">% of deceased with</text>
+                <text x="202.523px" y="74.311px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:21px;fill:rgb(241,131,48);">serious ailments</text>
+            </g>
+            <g transform="matrix(0.665638,0,0,0.665638,12.642,208.091)">
+                <text x="19.58px" y="656.133px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">cardiovascular</text>
+                <text x="84.057px" y="675.951px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">disease</text>
+            </g>
+            <g transform="matrix(0.665638,0,0,0.665638,13.0607,269.667)">
+                <text x="74.371px" y="656.133px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">diabetes</text>
+            </g>
+            <g transform="matrix(0.665638,0,0,0.665638,12.4681,314.235)">
+                <text x="85.112px" y="656.133px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">chronic</text>
+                <text x="51.407px" y="675.951px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">respiratory</text>
+                <text x="84.057px" y="695.769px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">disease</text>
+            </g>
+            <g transform="matrix(0.665638,0,0,0.665638,12.4681,367.458)">
+                <text x="48.524px" y="656.133px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">abnormally</text>
+                <text x="54.794px" y="675.951px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">high blood</text>
+                <text x="71.748px" y="695.769px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">pressure</text>
+            </g>
+            <g transform="matrix(0.665638,0,0,0.665638,12.642,438.132)">
+                <text x="92.118px" y="656.133px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">cancer</text>
+            </g>
+            <g transform="matrix(0.665638,0,0,0.665638,12.7708,488.417)">
+                <text x="53.101px" y="656.133px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">no existing</text>
+                <text x="57.059px" y="675.951px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:19.818px;fill:white;">conditions</text>
+            </g>
+            <g transform="matrix(1,0,0,1,123.579,561.667)">
+                <text x="56.756px" y="440.4px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(209,209,209);">Study of 44,672 conﬁrmed cases in Mainland China</text>
+                <text x="29.93px" y="453.4px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:13px;fill:rgb(209,209,209);">Sources: China Center for Disease Control &amp; Prevention</text>
+            </g>
+            <g transform="matrix(1.01598,0,0,0.970601,-0.54386,13.4113)">
+                <path d="M417.582,647.799C417.582,638.015 409.993,630.072 400.647,630.072L124.76,630.072L124.76,674.43L417.582,674.43L417.582,647.799Z" style="fill:url(#_Linear1);"/>
+            </g>
+            <g transform="matrix(0.704884,0,0,0.970601,38.2686,68.5803)">
+                <path d="M417.582,647.799C417.582,638.015 406.645,630.072 393.173,630.072L124.76,630.072L124.76,674.43L417.582,674.43L417.582,647.799Z" style="fill:url(#_Linear2);"/>
+            </g>
+            <g transform="matrix(0.611433,0,0,0.970601,49.9275,124.875)">
+                <path d="M417.582,647.799C417.582,638.015 404.973,630.072 389.443,630.072L124.76,630.072L124.76,674.43L417.582,674.43L417.582,647.799Z" style="fill:url(#_Linear3);"/>
+            </g>
+            <g transform="matrix(0.579027,0,0,0.970601,53.9705,181.024)">
+                <path d="M417.582,647.799C417.582,638.015 404.267,630.072 387.868,630.072L124.76,630.072L124.76,674.43L417.582,674.43L417.582,647.799Z" style="fill:url(#_Linear4);"/>
+            </g>
+            <g transform="matrix(0.547316,0,0,0.970601,57.9267,238.005)">
+                <path d="M417.582,647.799C417.582,638.015 403.496,630.072 386.146,630.072L124.76,630.072L124.76,674.43L417.582,674.43L417.582,647.799Z" style="fill:url(#_Linear5);"/>
+            </g>
+            <g transform="matrix(0.0881778,0,0,0.970601,115.209,293.728)">
+                <path d="M417.582,640.703C417.582,634.836 365.148,630.072 300.564,630.072L124.76,630.072L124.76,674.43L417.582,674.43L417.582,640.703Z" style="fill:url(#_Linear6);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-62.9273,-3.5451)">
+                <text x="221.828px" y="940.152px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:21px;fill:rgb(38,177,254);">0.9%</text>
+            </g>
+            <g transform="matrix(1,0,0,1,130.677,-286.2)">
+                <text x="221.828px" y="940.152px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:21px;fill:white;">10.5%</text>
+            </g>
+            <g transform="matrix(1,0,0,1,52.1686,-231.041)">
+                <text x="221.828px" y="940.152px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:21px;fill:white;">7.3%</text>
+            </g>
+            <g transform="matrix(1,0,0,1,28.4185,-174.747)">
+                <text x="221.828px" y="940.152px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:21px;fill:white;">6.3%</text>
+            </g>
+            <g transform="matrix(1,0,0,1,37.2164,-118.551)">
+                <text x="221.828px" y="940.152px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:21px;fill:white;">6%</text>
+            </g>
+            <g transform="matrix(1,0,0,1,7.31802,-61.6161)">
+                <text x="221.828px" y="940.152px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:21px;fill:white;">5.6%</text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(292.822,0,0,305.255,124.76,652.251)"><stop offset="0" style="stop-color:rgb(247,182,51);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(252,74,26);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(292.822,0,0,305.255,124.76,652.251)"><stop offset="0" style="stop-color:rgb(247,182,51);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(252,74,26);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(292.822,0,0,305.255,124.76,652.251)"><stop offset="0" style="stop-color:rgb(247,182,51);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(252,74,26);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(292.822,0,0,305.255,124.76,652.251)"><stop offset="0" style="stop-color:rgb(247,182,51);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(252,74,26);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(292.822,0,0,305.255,124.76,652.251)"><stop offset="0" style="stop-color:rgb(247,182,51);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(252,74,26);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear6" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(292.822,0,0,305.255,124.76,652.251)"><stop offset="0" style="stop-color:rgb(0,179,218);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,132,177);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

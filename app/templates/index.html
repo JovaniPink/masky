@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Masky</title>
+    <meta name="”description”" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index,follow" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./static/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./static/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./static/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./static/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./static/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./static/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./static/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./static/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./static/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./static/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./static/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./static/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./static/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./static/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./static/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+
+    <link rel="stylesheet" href="./static/css/index.css" />
+  </head>
+  <body>
+    <div id="content-top">
+      <nav>
+        <ul>
+          <li><a href="/features" target="_top">Features</a></li>
+          <li><a href="#content-middle">Dashboard</a></li>
+          <li><a href="/about" target="_top">About Us</a></li>
+        </ul>
+        <section>
+            <a href="https://github.com/FranciscoSerrano/Final-Project"><img
+            src="./static/img/githublogo.svg"
+            alt="Github"
+            width="30"
+            height="30"
+            />
+            </a>
+        </section>
+      </nav>
+      <section class="content-top-body">
+        <aside>
+          <h1>Masky</h1>
+          <div>
+            <a href="#video-booth" type="button" id="button">Check Mask</a>
+          </div>
+        </aside>
+        <img src="./static/img/facemask.svg" width="450" height="450" />
+      </section>
+    </div>
+    <section id="content-middle">
+      <section class="content-middle-body">
+        <section class="middle-about">
+          <h2>How To Stop A Pandemic</h2>
+          <br>
+          <p>
+            To extinguish a fire, it must be starved of oxygen.
+            However, it does not need to be starved of all oxygen, just enough to stop the fire from growing.
+            It's the same with a pandemic.
+            Disease transmission does not need to be cut by 100% for a pandemic to end.
+            If transmission is lowered just enough to stop the disease from spreading, the COVID-19 pandemic can be extinguished.
+          </p>
+          <br>
+          <p>
+            Epidemiologist use the term R0, pronounced R-nought or R-zero for the <a href="https://en.wikipedia.org/wiki/Basic_reproduction_number">number of people</a> a contagious person can infect in a population with no prior immunity to the disease.
+            It is a product of the average number of people a contagious person encounters and the chance of infection upon contact.
+            When R0 exceeds 1, the disease will grow exponentially until either enough of the population is vaccinated, or the population has reached herd immunity due to infection rates.
+            But, as Ed Yong writes in the Atlantic, <a href="https://www.theatlantic.com/science/archive/2020/01/how-fast-and-far-will-new-coronavirus-spread/605632/">"R0 is not destiny"</a>.
+          </p>
+          <br>
+          <p>
+            Social distancing, quarantining, and lockdowns decrease the number of encounters per person.
+            Masks decrease the chance of infection.
+            The goal of these public health strategies is to bring the pandemic under control by pulling R0 beneath 1.
+            With this in mind, we can re-express the impact of masks in terms of R0.
+          </p>
+          <br>
+          <p>
+            The graph below shows how R0 varies as mask-wearing increases.
+            Use the first slider to vary R0, which for COVID-19 is between 2 and 3.
+            This is in the absence of other public health measures such as social distancing, which further reduce R0.
+            By varying the effectiveness of the masks, you can see how they can assist with decreasing COVID-19 infection rates.
+          </p>
+        </section>
+      </section>
+      <div id="chart" class="card long">
+        <div>
+          <label class="row half bigsplash">
+            <div>R0: {% raw %}{{R0}}{% endraw %}</div>
+            <slider v-model="R0" :min="1" :max="3" :step="0.01"></slider>
+          </label>
+          <label class="row half bigsplash">
+            <div>Mask Effectiveness on Exhale: {% raw %}{{convertToPercent(eout)}}{% endraw %}%</div>
+            <slider v-model="eout" :min="0" :max="0.99" :step="0.01"></slider>
+          </label>
+          <label class="row half bigsplash">
+            <div>Mask Effectiveness on Inhale: {% raw %}{{convertToPercent(ein)}}{% endraw %}%</div>
+            <slider v-model="ein" :min="0" :max="0.99" :step="0.01"></slider>
+          </label>
+          <graph :traces="graph2Traces" :layout="graph2Layout(
+            'How Masks Reduce R0',
+            'Percentage of People Who Wear Masks',
+            '# People a Contagious Person Infects (R0)',
+            'Epidemic Under Control',
+            'Epidemic Out Of Control'
+          )" :config="config">
+          </graph>
+        </div>
+        <div>
+          <graph :traces="graph3Traces(
+          '% Infected'
+          )" :layout="graph3Layout(
+          'How Masks Reduce Infections',
+          'Percentage of People Who Wear Masks',
+          'Percentage of People Who Will Be Infected'
+          )" :config="config">
+          </graph>
+        </div>
+      </div>
+      <div class="card long">
+        <div id="bubble">
+        </div>
+      </div>
+      <div class='card long'>
+        <div id="animation">
+        </div>
+      </div>
+      <div id="video-booth" class="card long video-booth">
+        <div id="photo-booth">
+          <div id="capture-camera">
+            <img class="video-camera" src="./static/img/video-camera.svg" />
+          </div>
+          <div id="results" style="display:none">
+            <!-- Your captured image will appear here... -->
+          </div>
+          <!-- A button for taking snaps -->
+          <div class="button-container">
+            <div id="pre-capture-buttons">
+              <!-- This button is shown before the user takes a snapshot -->
+              <button class="photo-booth--button-extend" type=button value="CAPTURE" onclick="startWebCam()">CAPTURE</button>
+            </div>
+            <div id="post-capture-buttons" style="display:none">
+              <!-- These buttons are shown after a snapshot is taken -->
+              <button id="retake" class="photo-booth--button" type=button value="&lt; RETAKE" onclick="restartCapture()" style="display:none">RETAKE</button>
+              <button id="process" class="photo-booth--button" type=button value="PROCESS &gt;" onclick="saveCapture()">PROCESS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="viz" src="./static/img/viz/covid_viz_1.svg" />
+      </div>
+      <div class="card">
+        <img class="viz" src="./static/img/viz/covid_viz_2.svg" />
+      </div>
+      <div class="card long">
+        <img class="viz" src="./static/img/viz/covid_viz_7.svg" />
+      </div>
+      <div class="card">
+        <img class="viz" src="./static/img/viz/covid_viz_3.svg" />
+      </div>
+      <div class="card">
+        <img class="viz" src="./static/img/viz/covid_viz_4.svg" />
+      </div>
+      <div class="card">
+        <img class="viz" src="./static/img/viz/covid_viz_5.svg" />
+      </div>
+      <div class="card">
+        <img class="viz" src="./static/img/viz/covid_viz_6.svg" />
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="section-footer">
+      <div class="layout-container">
+        <div class="section-footer__layout layout-flex">
+          <!-- COPYRIGHT -->
+          <p class="section-footer--copyright text-note">
+            <small>&copy; Masky</small>
+          </p>
+          <!-- MENU -->
+          <ul style="list-style-type:none">
+            <li><h3>Github links</h3>
+            <li><a href="https://github.com/FranciscoSerrano">Cisco</a></li>
+            <li><a href="https://github.com/soudersmax">Max</a></li>
+            <li><a href="https://github.com/JovaniPink">Jovani</a></li>
+            <li><a href="https://github.com/AnnieShaffer">Annie</a></li>
+        </ul>
+        </div>
+        <div>
+          <p class="section-footer--love text-note">
+            <small>Made with &#x2764;&#xfe0f; in sunny Orlando, Florida</small>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="./static/js/libraries/plotly-basic.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./static/js/charts.js"></script>
+    <script src="./static/js/libraries/vue.min.js"></script>
+    <script src="./static/js/libraries/vue-observe-visibility.js"></script>
+    <script src="./static/js/libraries/lambertw.js"></script>
+    <script src="./static/js/vue-definitions.js"></script>
+    <script src="./static/js/libraries/webcam.js"></script>
+    <script>
+      function startWebCam(){
+        /* Do things after DOM has fully loaded */
+        Webcam.set({
+        // live preview size
+        width: 320,
+        height: 240,
+
+        // device capture size
+        dest_width: 640,
+        dest_height: 480,
+
+        // final cropped size
+        crop_width: 640,
+        crop_height: 480,
+
+        // format and quality
+        image_format: "jpeg",
+        jpeg_quality: 100,
+
+        // flip horizontal (mirror mode)
+        flip_horiz: true,
+      });
+      Webcam.attach("#capture-camera");
+      document.querySelector("#pre-capture-buttons").style.display = "none";
+      document.querySelector("#post-capture-buttons").style.display = "";
+      }
+      function restartCapture() {
+        Webcam.attach("#capture-camera");
+        document.querySelector("#retake").style.display = "none";
+        document.querySelector("#process").style.display = "";
+      }
+      function saveCapture() {
+        // actually snap a photo from preview freeze.
+        Webcam.snap(function (dataURI) {
+          // display results in page
+          console.log(typeof dataURI);
+
+          // shut down camera, stop capturing
+          Webcam.reset();
+
+          // Example POST method implementation:
+          async function postData(url = "", data = {}) {
+            // Default options are marked with *
+            const response = await fetch(url, {
+              method: "POST", // *GET, POST, PUT, DELETE, etc.
+              mode: "same-origin", // no-cors, *cors, same-origin
+              cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+              credentials: "same-origin", // include, *same-origin, omit
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              // redirect: "follow", manual, *follow, error
+              referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+              body: JSON.stringify(data), // body data type must match "Content-Type" header
+            });
+            return response.json(); // parses JSON response into native JavaScript objects
+          }
+
+          postData(url = "/photo_capture", data = { photo_cap: dataURI }).then((data) => {
+            console.log(data);
+            // swap buttons back to first set
+            document.querySelector("#retake").style.display = "";
+            document.querySelector("#process").style.display = "none";
+            // cancel preview freeze and return to live camera view
+            Webcam.unfreeze();
+            var element = document.createElement("p");
+            element.textContent = `${data}`;
+            document.querySelector("#capture-camera").appendChild(element)
+           // JSON data parsed by `data.json()` call
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
