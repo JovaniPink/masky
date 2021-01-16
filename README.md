@@ -17,7 +17,7 @@ Its not just Flask but an ecosystem to properly create a RESTful API service:
 
 ### Code characteristics
 
-- Tested on Python 3.7 and greater
+- Tested on Python 3.7.9 and greater
 - Well organized directories with lots of comments in READMEs.
   - app
     - api
