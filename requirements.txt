@@ -25,7 +25,7 @@ urllib3==1.24.1
 Werkzeug==0.16.1
 bcrypt
 flask_login
-Flask-Script==2.0.5
+Flask-Script==2.0.6
 flask_migrate
 flask_wtf
 flask_sqlalchemy
