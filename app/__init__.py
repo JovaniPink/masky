@@ -3,10 +3,8 @@
 
 from datetime import datetime
 import json, os, re, base64
-from celery import Celery
 import connexion
 from flask_marshmallow import Marshmallow
-from flask_pymongo import PyMongo
 from flask import (
     Flask,
     render_template,
@@ -23,30 +21,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Instantiate Flask extensions
 ma = Marshmallow()
-pymongo = PyMongo()
 csrf = CSRFProtect()
-
-
-# https://flask.palletsprojects.com/en/1.1.x/patterns/celery/
-def make_celery(app):
-    celery = Celery(
-        app.import_name,
-        backend=app.config["CELERY_RESULT_BACKEND"],
-        broker=app.config["CELERY_BROKER_URL"],
-    )
-    celery.conf.update(app.config)
-
-    # This is important, I'm running a celery.task to run the model prediction
-    # in the background of the app and not hold up the response. But also updating
-    # the frontend with statuses of the computation to show the user feedback.
-    # https://www.distributedpython.com/2018/09/28/celery-task-states/
-    class ContextTask(celery.Task):
-        def __call__(self, *args, **kwargs):
-            with app.app_context():
-                return self.run(*args, **kwargs)
-
-    celery.Task = ContextTask
-    return celery
 
 
 # https://flask.palletsprojects.com/en/0.12.x/patterns/appfactories/
@@ -76,14 +51,8 @@ def create_app(extra_config_settings={}):
     # Setup Marshmallow
     ma.init_app(application)
 
-    # Setup PyMongo
-    pymongo.init_app(application)
-
     # Setup CSRF
     csrf.init_app(application)
-
-    # Celery
-    celery = make_celery(application)
 
     @app.route("/")
     def index():
