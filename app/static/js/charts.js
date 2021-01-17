@@ -9,7 +9,7 @@ init();
 
 // Build stateCharts Function
 function stateCharts() {
-  d3.json("../../mask-dashboard/locations.json").then((locations) => {
+  d3.json("/locations.json").then((locations) => {
     // Declare arrays from locations data
     var stateNames = [];
     var stateLat = [];

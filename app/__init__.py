@@ -7,7 +7,14 @@ from celery import Celery
 import connexion
 from flask_marshmallow import Marshmallow
 from flask_pymongo import PyMongo
-from flask import Flask, render_template, request, jsonify, make_response
+from flask import (
+    Flask,
+    render_template,
+    request,
+    jsonify,
+    make_response,
+    send_from_directory,
+)
 from flask_wtf.csrf import CSRFProtect
 from werkzeug.utils import secure_filename
 
@@ -89,6 +96,10 @@ def create_app(extra_config_settings={}):
     @app.route("/features")
     def features():
         return render_template("features.html")
+
+    @app.route("/<path:filename>")
+    def locations_json(filename):
+        return send_from_directory("static", filename)
 
     @app.route("/photo_capture", methods=["POST"])
     @csrf.exempt

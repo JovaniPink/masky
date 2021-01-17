@@ -12,77 +12,77 @@
     <link
       rel="apple-touch-icon"
       sizes="57x57"
-      href="{{ url_for('static', filename = 'apple-icon-57x57.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-57x57.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="60x60"
-      href="{{ url_for('static', filename = 'apple-icon-60x60.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-60x60.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
-      href="{{ url_for('static', filename = 'apple-icon-72x72.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-72x72.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="{{ url_for('static', filename = 'apple-icon-76x76.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-76x76.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="{{ url_for('static', filename = 'apple-icon-114x114.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-114x114.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="{{ url_for('static', filename = 'apple-icon-120x120.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-120x120.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
-      href="{{ url_for('static', filename = 'apple-icon-144x144.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-144x144.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="152x152"
-      href="{{ url_for('static', filename = 'apple-icon-152x152.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-152x152.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ url_for('static', filename = 'apple-icon-180x180.png') }}"
+      href="{{ url_for('static', filename = '/favicon/apple-icon-180x180.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="{{ url_for('static', filename = 'android-icon-192x192.png') }}"
+      href="{{ url_for('static', filename = '/favicon/android-icon-192x192.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="{{ url_for('static', filename = 'favicon-32x32.png') }}"
+      href="{{ url_for('static', filename = '/favicon/favicon-32x32.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="96x96"
-      href="{{ url_for('static', filename = 'favicon-96x96.png') }}"
+      href="{{ url_for('static', filename = '/favicon/favicon-96x96.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="{{ url_for('static', filename = 'favicon-16x16.png') }}"
+      href="{{ url_for('static', filename = '/favicon/favicon-16x16.png') }}"
     />
-    <link rel="manifest" href="{{ url_for('static', filename = 'manifest.json') }}" />
+    <link rel="manifest" href="{{ url_for('static', filename = '/favicon/manifest.json') }}" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta
       name="msapplication-TileImage"
-      content="{{ url_for('static', filename = 'ms-icon-144x144.png') }}"
+      content="{{ url_for('static', filename = '/favicon/ms-icon-144x144.png') }}"
     />
     <meta name="theme-color" content="#ffffff" />
 
@@ -98,7 +98,7 @@
     <meta name="twitter:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
     <meta name="twitter:image" content="" />
 
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'index.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/index.css') }}" />
   </head>
   <body>
     <div id="content-top">
@@ -110,7 +110,7 @@
         </ul>
         <section>
             <a href="https://github.com/FranciscoSerrano/Final-Project" rel="noopener noreferrer" target="_blank"><img
-            src="{{ url_for('static', filename = 'githublogo.svg') }}"
+            src="{{ url_for('static', filename = '/img/githublogo.svg') }}"
             alt="Github"
             width="30"
             height="30"
@@ -125,7 +125,7 @@
             <a href="#video-booth" type="button" id="button">Check Mask</a>
           </div>
         </aside>
-        <img src="{{ url_for('static', filename = 'facemask.svg') }}" width="450" height="450" />
+        <img src="{{ url_for('static', filename = '/img/facemask.svg') }}" width="450" height="450" />
       </section>
     </div>
     <section id="content-middle">
@@ -208,7 +208,7 @@
       <div id="video-booth" class="card long video-booth">
         <div id="photo-booth">
           <div id="capture-camera">
-            <img class="video-camera" src="{{ url_for('static', filename = 'video-camera.svg') }}" />
+            <img class="video-camera" src="{{ url_for('static', filename = '/img/video-camera.svg') }}" />
           </div>
           <div id="results" style="display:none">
             <!-- Your captured image will appear here... -->
@@ -228,25 +228,25 @@
         </div>
       </div>
       <div class="card">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_1.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_1.svg') }}" />
       </div>
       <div class="card">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_2.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_2.svg') }}" />
       </div>
       <div class="card long">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_7.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_7.svg') }}" />
       </div>
       <div class="card">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_3.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_3.svg') }}" />
       </div>
       <div class="card">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_4.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_4.svg') }}" />
       </div>
       <div class="card">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_5.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_5.svg') }}" />
       </div>
       <div class="card">
-        <img class="viz" src="{{ url_for('static', filename = 'covid_viz_6.svg') }}" />
+        <img class="viz" src="{{ url_for('static', filename = '/img/viz/covid_viz_6.svg') }}" />
       </div>
     </section>
     <!-- FOOTER -->
@@ -275,14 +275,14 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-    <script src="{{ url_for('static', filename = 'plotly-basic.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/libraries/plotly-basic.min.js') }}"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="{{ url_for('static', filename = 'charts.js') }}"></script>
-    <script src="{{ url_for('static', filename = 'vue.min.js') }}"></script>
-    <script src="{{ url_for('static', filename = 'vue-observe-visibility.js') }}"></script>
-    <script src="{{ url_for('static', filename = 'lambertw.js') }}"></script>
-    <script src="{{ url_for('static', filename = 'vue-definitions.js') }}"></script>
-    <script src="{{ url_for('static', filename = 'webcam.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/charts.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/libraries/vue.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/libraries/vue-observe-visibility.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/libraries/lambertw.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/vue-definitions.js') }}"></script>
+    <script src="{{ url_for('static', filename = '/js/libraries/webcam.js') }}"></script>
     <script>
       function startWebCam(){
         /* Do things after DOM has fully loaded */
