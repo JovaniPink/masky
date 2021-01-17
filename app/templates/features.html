@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Masky</title>
+    <title>Masky Features</title>
     <meta name="”description”" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="index,follow" />
@@ -12,105 +12,105 @@
     <link
       rel="apple-touch-icon"
       sizes="57x57"
-      href="../static/favicon/apple-icon-57x57.png"
+      href="{{ url_for('static', filename = 'apple-icon-57x57.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="60x60"
-      href="../static/favicon/apple-icon-60x60.png"
+      href="{{ url_for('static', filename = 'apple-icon-60x60.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
-      href="../static/favicon/apple-icon-72x72.png"
+      href="{{ url_for('static', filename = 'apple-icon-72x72.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="../static/favicon/apple-icon-76x76.png"
+      href="{{ url_for('static', filename = 'apple-icon-76x76.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="../static/favicon/apple-icon-114x114.png"
+      href="{{ url_for('static', filename = 'apple-icon-114x114.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="../static/favicon/apple-icon-120x120.png"
+      href="{{ url_for('static', filename = 'apple-icon-120x120.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
-      href="../static/favicon/apple-icon-144x144.png"
+      href="{{ url_for('static', filename = 'apple-icon-144x144.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="152x152"
-      href="../static/favicon/apple-icon-152x152.png"
+      href="{{ url_for('static', filename = 'apple-icon-152x152.png') }}"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="../static/favicon/apple-icon-180x180.png"
+      href="{{ url_for('static', filename = 'apple-icon-180x180.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="../static/favicon/android-icon-192x192.png"
+      href="{{ url_for('static', filename = 'android-icon-192x192.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="../static/favicon/favicon-32x32.png"
+      href="{{ url_for('static', filename = 'favicon-32x32.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="96x96"
-      href="../static/favicon/favicon-96x96.png"
+      href="{{ url_for('static', filename = 'favicon-96x96.png') }}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="../static/favicon/favicon-16x16.png"
+      href="{{ url_for('static', filename = 'favicon-16x16.png') }}"
     />
-    <link rel="manifest" href="../static/favicon/manifest.json" />
+    <link rel="manifest" href="{{ url_for('static', filename = 'manifest.json') }}" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta
       name="msapplication-TileImage"
-      content="../static/favicon/ms-icon-144x144.png"
+      content="{{ url_for('static', filename = 'ms-icon-144x144.png') }}"
     />
     <meta name="theme-color" content="#ffffff" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="Masky" />
+    <meta property="og:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
     <meta property="og:image" content="" />
     <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="Masky" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:title" content="Masky" />
+    <meta name="twitter:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
     <meta name="twitter:image" content="" />
 
-    <link rel="stylesheet" href="../static/styles/features.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'features.css') }}" />
   </head>
   <body>
     <div id="content-top">
       <nav>
         <ul>
-            <li><a href="/features" target="_top">Features</a></li>
+            <li><a href="/features">Features</a></li>
           <li><a href="/#content-middle">Dashboard</a></li>
-          <li><a href="/about" target="_top">About Us</a></li>
+          <li><a href="/about">About Us</a></li>
         </ul>
         <section>
-            <a href="https://github.com/FranciscoSerrano/Final-Project"><img
-            src="../static/assets/githublogo.svg"
+            <a href="https://github.com/FranciscoSerrano/Final-Project"rel="noopener noreferrer" target="_blank"><img
+            src="{{ url_for('static', filename = 'githublogo.svg') }}"
             alt="Github"
             width="30"
             height="30"
@@ -121,20 +121,20 @@
       <section class="content-top-body">
         <section class="top-features">
           <h1>Features</h1>
-          <img src="../static/assets/ML_Project_Overview.png"/>
+          <img src="{{ url_for('static', filename = 'ML_Project_Overview.png') }}"/>
           <br>
           <p>
-            OpenCV provides the CascadeClassifier class that can be used to create a cascade 
-            classifier for face detection. The constructor can take a filename as an argument 
+            OpenCV provides the CascadeClassifier class that can be used to create a cascade
+            classifier for face detection. The constructor can take a filename as an argument
             that specifies the XML file for a pre-trained model.
             <br>
             OpenCV provides a number of pre-trained models as part of the installation. These are available on your system and are also available on the OpenCV GitHub project.
             <br>
           </p>
-          <img src="../static/assets/CNN_architecture.png"/>
+          <img src="{{ url_for('static', filename = 'CNN_architecture.png') }}"/>
           <br>
           <p>
-            Use a cascade classifer to detect a face in a webcam window, extract the face and pass it to a convolutional neural network to classify the image as "mask" or "no mask".
+            Use a cascade classifier to detect a face in a webcam window, extract the face and pass it to a convolutional neural network to classify the image as "mask" or "no mask".
           </p>
         </section>
     </div>
@@ -145,11 +145,11 @@
           <p>
             Included in our repository is our "requirements.txt" With this file in the repository, you can create the new environment by running:
           </p>
-          <br> 
+          <br>
           <code>
             python -m venv myenv
-          </code> 
-          <br> 
+          </code>
+          <br>
           <code>
             pip -r requirements.txt
           </code>
@@ -186,10 +186,10 @@
           <!-- MENU -->
           <ul style="list-style-type:none">
             <li><h3>Github links</h3>
-            <li><a href="https://github.com/FranciscoSerrano">Cisco</a></li>
-            <li><a href="https://github.com/soudersmax">Max</a></li>
-            <li><a href="https://github.com/JovaniPink">Jovani</a></li>
-            <li><a href="https://github.com/AnnieShaffer">Annie</a></li>
+              <li><a href="https://github.com/FranciscoSerrano" rel="noopener noreferrer" target="_blank">Cisco</a></li>
+              <li><a href="https://github.com/soudersmax" rel="noopener noreferrer" target="_blank">Max</a></li>
+              <li><a href="https://github.com/JovaniPink" rel="noopener noreferrer" target="_blank">Jovani</a></li>
+              <li><a href="https://github.com/AnnieShaffer" rel="noopener noreferrer" target="_blank">Annie</a></li>
         </ul>
         </div>
         <div>

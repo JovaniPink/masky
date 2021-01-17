@@ -99,7 +99,9 @@ def create_app(extra_config_settings={}):
         binary_data = base64.b64decode(encoded)
         image_name = "capture.jpeg"
 
-        with open(os.path.join(application.config["IMAGE_UPLOADS"], image_name), "wb") as f:
+        with open(
+            os.path.join(application.config["IMAGE_UPLOADS"], image_name), "wb"
+        ) as f:
             f.write(binary_data)
             # facial recognition operations
             response = {"msg": "success", "size": 20}

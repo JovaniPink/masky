@@ -76,7 +76,6 @@ body {
 @media screen and (min-width: 1200px) {
 }
 
-
 nav {
   width: 70%;
   display: flex;
@@ -133,7 +132,6 @@ nav img {
 .content-top-body p {
   font-size: 20px;
   margin-bottom: 70px;
-  
 }
 
 #content-middle {
@@ -159,16 +157,11 @@ nav img {
 .content-middle-body h1 {
   font-size: 50px;
   color: #3e3e3e;
-  
 }
 
 .content-middle-body p {
   font-size: 20px;
-  
 }
-
-
-
 
 /* FOOTER */
 
@@ -177,7 +170,6 @@ nav img {
   padding-top: 1.25rem;
   color: whitesmoke;
   background-color: #3e3e3e;
-  
 }
 
 .section-footer__layout {
@@ -195,8 +187,8 @@ nav img {
 
 .section-footer__layout {
   column-gap: var(1rem);
-  
-}.section-footer--love {
+}
+.section-footer--love {
   text-align: center;
 }
 
@@ -205,6 +197,6 @@ text-note {
 }
 
 a {
-    text-decoration: none; 
-    color: whitesmoke; 
+  text-decoration: none;
+  color: whitesmoke;
 }
