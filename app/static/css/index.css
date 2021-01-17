@@ -82,7 +82,7 @@ body {
   height: fit-content;
   background-color: #3e3e3e;
   padding-top: 50px;
-  background-image: url('/static/img/wavelight.svg');
+  background-image: url('/img/wavelight.svg');
   background-repeat: no-repeat;
   background-position-y: bottom;
 }
@@ -90,7 +90,7 @@ body {
 #content-middle {
   height: auto;
   background-color: #eaeaea;
-  background-image: url('/static/img/wavedark.svg');
+  background-image: url('/img/wavedark.svg');
   display: flex;
   grid-template-columns: 1fr;
   flex-wrap: wrap;

@@ -143,7 +143,7 @@ nav img {
 #content-middle {
   height: auto;
   background-color: #eaeaea;
-  background-image: url('/static/img/wavedark.svg');
+  background-image: url('/img/wavedark.svg');
   display: flex;
   grid-template-columns: 1fr;
   flex-wrap: wrap;

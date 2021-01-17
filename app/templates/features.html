@@ -98,7 +98,7 @@
     <meta name="twitter:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
     <meta name="twitter:image" content="" />
 
-    <link rel="stylesheet" href="{{ url_for('static', filename = '/css/features.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/features.css') }}" />
   </head>
   <body>
     <div id="content-top">
@@ -121,7 +121,7 @@
       <section class="content-top-body">
         <section class="top-features">
           <h1>Features</h1>
-          <img src="{{ url_for('static', filename = '/assets/ML_Project_Overview.png') }}"/>
+          <img src="{{ url_for('static', filename = 'assets/ML_Project_Overview.png') }}"/>
           <br>
           <p>
             OpenCV provides the CascadeClassifier class that can be used to create a cascade
@@ -131,7 +131,7 @@
             OpenCV provides a number of pre-trained models as part of the installation. These are available on your system and are also available on the OpenCV GitHub project.
             <br>
           </p>
-          <img src="{{ url_for('static', filename = '/assets/CNN_architecture.png') }}"/>
+          <img src="{{ url_for('static', filename = 'assets/CNN_architecture.png') }}"/>
           <br>
           <p>
             Use a cascade classifier to detect a face in a webcam window, extract the face and pass it to a convolutional neural network to classify the image as "mask" or "no mask".
