@@ -5,15 +5,8 @@ Use "python manage.py runserver" to start the development web server on localhos
 Use "python manage.py runserver --help" for additional runserver options.
 """
 
-from os import environ
+from flask_migrate import MigrateCommand
 from flask_script import Manager
-
-get_config_mode = environ.get("MASKY_CONFIG_MODE", "Debug")
-
-# try:
-#     config_mode = config_dict[get_config_mode.capitalize()]
-# except KeyError:
-#     exit('Error: Invalid MASKY_CONFIG_MODE environment variable entry.')
 
 from app import create_app
 

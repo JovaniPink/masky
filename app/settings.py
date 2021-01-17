@@ -8,7 +8,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # Application settings
-APP_NAME = "MASKYAPI"
+APP_NAME = "MASKY"
 APP_SYSTEM_ERROR_SUBJECT_LINE = APP_NAME + " system error"
 
 # Flask settings
@@ -19,7 +19,3 @@ CSRF_ENABLED = True
 ALLOWED_IMAGE_EXTENSIONS = {"x-icon", "gif", "png", "jpg", "jpeg"}
 MAX_IMAGE_FILESIZE = 16 * 1024 * 1024
 IMAGE_UPLOADS = f"{basedir}/static/img/captures"
-
-# Celery
-CELERY_BROKER_URL = "mongodb://localhost:27017/masky"
-CELERY_RESULT_BACKEND = "mongodb://localhost:27017/masky"
