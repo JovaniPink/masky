@@ -16,6 +16,8 @@ from flask import (
 from flask_wtf.csrf import CSRFProtect
 from werkzeug.utils import secure_filename
 
+# import app.predictor
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -74,7 +76,6 @@ def create_app(extra_config_settings={}):
     @csrf.exempt
     def process_capture():
         req = request.get_json()
-        print(req)
         header, encoded = req["photo_cap"].split(",", 1)
         binary_data = base64.b64decode(encoded)
         image_name = "capture.jpeg"
