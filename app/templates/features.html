@@ -88,17 +88,26 @@
 
     <meta property="og:title" content="Masky" />
     <meta property="og:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:image" content="{{ url_for('static', filename = 'img/facebook_ML_Project_Image.png') }}" />
+    <meta property="og:url" content="https://www.masky.app/" />
     <meta property="og:site_name" content="Masky" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="" />
+    <meta name="twitter:site" content="https://www.masky.app/" />
     <meta name="twitter:title" content="Masky" />
     <meta name="twitter:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
-    <meta name="twitter:image" content="" />
+    <meta name="twitter:image" content="{{ url_for('static', filename = 'img/twitter_ML_Project_Image.png') }}" />
 
     <link rel="stylesheet" href="{{ url_for('static', filename = 'css/features.css') }}" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92F1KQBYR6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-92F1KQBYR6');
+    </script>
   </head>
   <body>
     <div id="content-top">

@@ -88,17 +88,26 @@
 
     <meta property="og:title" content="Masky" />
     <meta property="og:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:image" content="{{ url_for('static', filename = 'img/facebook_ML_Project_Image.png') }}" />
+    <meta property="og:url" content="https://www.masky.app/" />
     <meta property="og:site_name" content="Masky" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="" />
+    <meta name="twitter:site" content="https://www.masky.app/" />
     <meta name="twitter:title" content="Masky" />
     <meta name="twitter:description" content="Informative web site for COVID-19 and mask data with an automated mask detection app." />
-    <meta name="twitter:image" content="" />
+    <meta name="twitter:image" content="{{ url_for('static', filename = 'img/twitter_ML_Project_Image.png') }}" />
 
     <link rel="stylesheet" href="{{ url_for('static', filename = '/css/about.css') }}" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92F1KQBYR6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-92F1KQBYR6');
+    </script>
   </head>
   <body>
     <div id="content-top">
@@ -162,7 +171,9 @@
           <br>
           <h2>Max</h2>
           <p>
-          [insert interesting information here]
+            Max is a public health professional dedicated to creating actionable tools for
+            policy and decision making with an emphasis on accessibility. In their spare time,
+            Max likes to explore National Parks and Wikipedia rabbit holes.
           </p>
           <br><br><br><br><br>
           <p>Be super and put on the mask. &#x2764;&#xfe0f;</p>
