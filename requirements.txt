@@ -13,6 +13,7 @@ openapi-spec-validator
 Flask
 marshmallow
 flask-marshmallow
+Flask-WTF
 Flask-Script
 idna
 inflection
