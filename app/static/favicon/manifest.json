@@ -1,5 +1,10 @@
 {
- "name": "Masky",
+  "name": "Masky",
+  "short_name": "Masky",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Informative web site for COVID-19 and mask data with an automated mask detection app.",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
