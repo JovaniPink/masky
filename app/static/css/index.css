@@ -10,6 +10,7 @@ body {
   height: 100%;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* LAYOUT */
@@ -82,7 +83,7 @@ body {
   height: fit-content;
   background-color: #3e3e3e;
   padding-top: 50px;
-  background-image: url('/img/wavelight.svg');
+  background-image: url("/img/wavelight.svg");
   background-repeat: no-repeat;
   background-position-y: bottom;
 }
@@ -90,7 +91,7 @@ body {
 #content-middle {
   height: auto;
   background-color: #eaeaea;
-  background-image: url('/img/wavedark.svg');
+  background-image: url("/img/wavedark.svg");
   display: flex;
   grid-template-columns: 1fr;
   flex-wrap: wrap;
@@ -149,7 +150,7 @@ nav img {
   color: #3e3e3e;
   font-size: 20px;
   padding: 10px;
-  width: 180px;
+  width: 200px;
   text-align: center;
   border-radius: 50px;
   box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.5);
@@ -177,6 +178,12 @@ nav img {
   margin: 0 auto;
   justify-content: center;
   color: #3e3e3e;
+}
+
+.mask {
+  color: whitesmoke;
+  padding: 10px;
+  margin: 10px auto;
 }
 
 .content-middle-body h1 {

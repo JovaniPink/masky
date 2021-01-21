@@ -163,6 +163,39 @@
           </p>
         </section>
       </section>
+      <div id="video-booth" class="card video-booth">
+        <div id="photo-booth">
+          <div id="capture-camera">
+            <img class="video-camera" src="{{ url_for('static', filename = 'img/video-camera.svg') }}"/>
+          </div>
+          <div id="results" style="display:none">
+            <!-- Your captured image will appear here... -->
+          </div>
+          <!-- A button for taking snaps -->
+          <div class="button-container">
+            <div id="pre-capture-buttons">
+              <!-- This button is shown before the user takes a snapshot -->
+              <button class="photo-booth--button-extend" type=button value="CAPTURE" onclick="startWebCam()">CAPTURE</button>
+            </div>
+            <div id="post-capture-buttons" style="display:none">
+              <!-- These buttons are shown after a snapshot is taken -->
+              <button id="retake" class="photo-booth--button" type=button value="&lt; RETAKE" onclick="restartCapture()" style="display:none">RETAKE</button>
+              <button id="process" class="photo-booth--button" type=button value="PROCESS &gt;" onclick="saveCapture()">PROCESS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="mask">
+          <h2>Mask Detection Model</h2>
+          <br>
+          <p>
+            Click the capture button on the left to upload a photo from your webcam to our convolutional neural network
+            machine learning model that can detect masks on faces. Continue to read down below and explore how masks
+            can dramatically change the way COVID-19 spreads.
+          </p>
+        </div>
+      </div>
       <div id="chart" class="card long">
         <div>
           <label class="row half bigsplash">
@@ -203,29 +236,7 @@
       </div>
       <div class='card long'>
         <div id="animation">
-        </div>
       </div>
-      <div id="video-booth" class="card long video-booth">
-        <div id="photo-booth">
-          <div id="capture-camera">
-            <img class="video-camera" src="{{ url_for('static', filename = 'img/video-camera.svg') }}" />
-          </div>
-          <div id="results" style="display:none">
-            <!-- Your captured image will appear here... -->
-          </div>
-          <!-- A button for taking snaps -->
-          <div class="button-container">
-            <div id="pre-capture-buttons">
-              <!-- This button is shown before the user takes a snapshot -->
-              <button class="photo-booth--button-extend" type=button value="CAPTURE" onclick="startWebCam()">CAPTURE</button>
-            </div>
-            <div id="post-capture-buttons" style="display:none">
-              <!-- These buttons are shown after a snapshot is taken -->
-              <button id="retake" class="photo-booth--button" type=button value="&lt; RETAKE" onclick="restartCapture()" style="display:none">RETAKE</button>
-              <button id="process" class="photo-booth--button" type=button value="PROCESS &gt;" onclick="saveCapture()">PROCESS</button>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="card">
         <img class="viz" src="{{ url_for('static', filename = 'img/viz/covid_viz_1.svg') }}" />
