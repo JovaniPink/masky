@@ -1,12 +1,8 @@
 numpy
-pandas
 opencv-python
 mtcnn
 scikit-learn
 tensorflow
-matplotlib
-seaborn
-jupyterlab
 requests
 certifi
 chardet
@@ -32,6 +28,3 @@ urllib3
 bcrypt
 Werkzeug
 gunicorn
-# Automated tests
-pytest
-pytest-cov
