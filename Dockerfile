@@ -1,4 +1,4 @@
-FROM python:3.9.2
+FROM python:3.9.3
 
 ENV FLASK_APP manage.py
 
