@@ -3,7 +3,6 @@
 
 from datetime import datetime
 import json, os, re, base64
-import connexion
 from flask_marshmallow import Marshmallow
 from flask import (
     Flask,
@@ -30,13 +29,7 @@ csrf = CSRFProtect()
 def create_app(extra_config_settings={}):
     """Create a Flask application."""
 
-    # Create the connexion application instance
-    app = connexion.FlaskApp(__name__, specification_dir=basedir)
-
-    # Read the openapi.yaml file to configure the endpoints
-    app.add_api("openapi.yaml")
-
-    application = app.app
+    application = Flask(__name__)
 
     # Load App Config settings
     # Load common settings from 'app/settings.py' file
@@ -56,23 +49,27 @@ def create_app(extra_config_settings={}):
     # Setup CSRF
     csrf.init_app(application)
 
-    @app.route("/")
+    @application.route("/")
     def index():
         return render_template("index.html")
 
-    @app.route("/about")
+    @application.route("/about")
     def about():
         return render_template("about.html")
 
-    @app.route("/features")
+    @application.route("/features")
     def features():
         return render_template("features.html")
 
-    @app.route("/<path:filename>")
+    @application.route("/index")
+    def api_index():
+        return {"status": 200}
+
+    @application.route("/<path:filename>")
     def locations_json(filename):
         return send_from_directory("static", filename)
 
-    @app.route("/photo_capture", methods=["POST"])
+    @application.route("/photo_capture", methods=["POST"])
     @csrf.exempt
     def process_capture():
         req = request.get_json()
