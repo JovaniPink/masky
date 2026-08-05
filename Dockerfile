@@ -1,12 +1,14 @@
-FROM python:3.9.5
+FROM python:3.14.7
 
-ENV FLASK_APP manage.py
+ENV FLASK_APP=manage.py \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
-COPY manage.py unicorn.py requirements.txt runtime.txt .env ./
+COPY manage.py gunicorn_config.py requirements.txt runtime.txt ./
 COPY . /app
 WORKDIR /app
 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 5000
-CMD ["gunicorn", "--config", "unicorn.py", "unicorn:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "gunicorn_config:app"]
