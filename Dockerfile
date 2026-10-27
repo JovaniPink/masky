@@ -1,4 +1,4 @@
-FROM python:3.14.7
+FROM python:3.15.2
 
 ENV FLASK_APP=manage.py \
     PYTHONDONTWRITEBYTECODE=1 \
